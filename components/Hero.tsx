@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Lahiru YAsas, a Next.js Developer based in Sri Lanka.
+            Hi! I&apos;m Lahiru Yasas, a Next.js Developer based in Sri Lanka.
           </p>
 
           <a href="#about">
