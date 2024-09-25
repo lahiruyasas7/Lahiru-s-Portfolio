@@ -1,6 +1,5 @@
 import { cn } from "@/utils/cn";
 
-
 export const BentoGrid = ({
   className,
   children,
@@ -41,7 +40,7 @@ export const BentoGridItem = ({
   img?: string;
   imgClassName?: string;
   titleClassName?: string;
-  spareImg?: string
+  spareImg?: string;
 }) => {
   return (
     <div
@@ -49,7 +48,23 @@ export const BentoGridItem = ({
         "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
         className
       )}
+      style={{
+        background: "rgb(4,7,29)",
+        backgroundColor:
+          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+      }}
     >
+      <div className={`${id === 6 && "flex justify-center"} h-full`}>
+        <div className="w-full h-full absolute">
+          {img && (
+            <img
+              src={img}
+              alt={img}
+              className={cn(imgClassName, "object-cover object-center ")}
+            />
+          )}
+        </div>
+      </div>
       {header}
       <div className="group-hover/bento:translate-x-2 transition duration-200">
         {icon}
