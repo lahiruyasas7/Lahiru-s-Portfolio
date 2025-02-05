@@ -10,11 +10,11 @@ const Navbar = () => {
         </li>
 
         <li className="menu-item-has-children">
-          <Link href="/blog">Projects</Link>
+          <Link href="/projects">Projects</Link>
         </li>
 
         <li>
-          <Link href="/pricing">About</Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
           <Link href="/blog">Blog</Link>
