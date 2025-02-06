@@ -1,5 +1,7 @@
 import { Spotlight } from "@/components/ui/Spotlight";
+import Image from "next/image";
 import React from "react";
+import myImage from '../../public/custom-images/LahiruImage.jpeg'
 
 const About = () => {
   return (
@@ -27,39 +29,47 @@ const About = () => {
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
-        <div className="relative my-5 z-10 mx-[400px]">
+        <div className="relative my-5 z-10 mx-[200px]">
           <div className="flex justify-start items-center gap-4 mb-6">
             <h2 className="text-2xl font-semibold p-0 m-0">About Me</h2>
             <div className="w-[200px] h-[1px] bg-gray-400"></div>
           </div>
-          <div>
-            <p>
-              I am an enthusiastic and detail-oriented Full-Stack Software
-              Engineer with nearly two years of industry experience, currently
-              working as an Associate Software Engineer. With a strong passion
-              for problem-solving and innovation, I thrive in dynamic
-              environments where I can contribute as a smart team player.
-            </p>
-            <p>
-              I hold a Second Class Upper Honors degree in Computer Science and
-              Software Engineering from the University of Bedfordshire at SLIIT.
-              My expertise spans across frontend and backend development,
-              utilizing modern technologies such as React.js, Next.js,
-              Redux-Saga, Nest.js, TypeORM, Prisma, PostgreSQL, Firebase, and
-              MongoDB to build scalable and efficient applications.
-            </p>
-            <p>
-              Beyond technical skills, I am recognized for my exceptional
-              attitude, analytical thinking, and hardworking nature. I am always
-              eager to tackle complex challenges, optimize workflows, and
-              deliver high-quality solutions that drive business success.
-            </p>
-            <p>
-              I am passionate about continuous learning and collaboration,
-              always striving to enhance my skill set while contributing
-              effectively to any project or company I am part of.
-            </p>
-            <p>Let’s connect and build something great together!</p>
+          <div className="flex justify-center items-center gap-10">
+            <div>
+              <p>
+                I am an enthusiastic and detail-oriented Full-Stack Software
+                Engineer with nearly two years of industry experience, currently
+                working as an Associate Software Engineer. With a strong passion
+                for problem-solving and innovation, I thrive in dynamic
+                environments where I can contribute as a smart team player.
+              </p>
+              <p>
+                I hold a Second Class Upper Honors degree in Computer Science
+                and Software Engineering from the University of Bedfordshire at
+                SLIIT. My expertise spans across frontend and backend
+                development, utilizing modern technologies such as{" "}
+                <span className="font-bold text-[]">
+                  React.js, Next.js, Redux-Saga, tailwind, Bootstrap, Nest.js,
+                  TypeORM, Prisma, PostgreSQL, Firebase, and MongoDB
+                </span>{" "}
+                to build scalable and efficient applications.
+              </p>
+              <p>
+                Beyond technical skills, I am recognized for my exceptional
+                attitude, analytical thinking, and hardworking nature. I am
+                always eager to tackle complex challenges, optimize workflows,
+                and deliver high-quality solutions that drive business success.
+              </p>
+              <p>
+                I am passionate about continuous learning and collaboration,
+                always striving to enhance my skill set while contributing
+                effectively to any project or company I am part of.
+              </p>
+              <p>Let’s connect and build something great together!</p>
+            </div>
+            <div className="rounded">
+              <Image className="object-scale-down rounded" src={myImage} alt="my-image" height={2000} width={800}/>
+            </div>
           </div>
         </div>
       </div>
