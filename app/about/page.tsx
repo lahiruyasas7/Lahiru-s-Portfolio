@@ -1,7 +1,9 @@
 import { Spotlight } from "@/components/ui/Spotlight";
 import Image from "next/image";
 import React from "react";
-import myImage from '../../public/custom-images/LahiruImage.jpeg'
+import myImage from "../../public/custom-images/LahiruImage.jpeg";
+import MagicButton from "@/components/ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -68,8 +70,21 @@ const About = () => {
               <p>Let’s connect and build something great together!</p>
             </div>
             <div className="rounded">
-              <Image className="object-scale-down rounded" src={myImage} alt="my-image" height={2000} width={800}/>
+              <Image
+                className="object-scale-down rounded"
+                src={myImage}
+                alt="my-image"
+                height={2000}
+                width={800}
+              />
             </div>
+          </div>
+          <div className="my-6">
+            <MagicButton
+              title="See my CV"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
           </div>
         </div>
       </div>
