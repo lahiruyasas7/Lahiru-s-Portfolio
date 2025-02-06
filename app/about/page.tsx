@@ -4,6 +4,7 @@ import React from "react";
 import myImage from "../../public/custom-images/LahiruImage.jpeg";
 import MagicButton from "@/components/ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -80,11 +81,13 @@ const About = () => {
             </div>
           </div>
           <div className="my-6">
-            <MagicButton
-              title="See my CV"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
+            <Link href="/resume" className="nav-link">
+              <MagicButton
+                title="View my Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </Link>
           </div>
         </div>
       </div>
