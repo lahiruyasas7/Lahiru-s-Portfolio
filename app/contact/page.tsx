@@ -1,6 +1,8 @@
 import ContactForm from "@/components/contacts/ContactForm";
 import { Spotlight } from "@/components/ui/Spotlight";
 import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlinePhone } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -28,8 +30,34 @@ const Contact = () => {
                  bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
-        <div className="relative">
-          <ContactForm />
+        <div className="relative flex flex-col sm:flex-row sm:justify-center sm:items-center gap-12">
+          <div className="bg-red-600">
+            <ContactForm />
+          </div>
+          <div>
+            <div className="flex justify-start items-center gap-3">
+              <div>
+                <AiOutlineMail size={40} />
+              </div>
+              <div>
+                <h3 className="text-3xl sm:text-5xl">Email</h3>
+                <h4 className="text-xl sm:text-3xl text-gray-400">
+                  Lahiruyasas7@gmail.com
+                </h4>
+              </div>
+            </div>
+            <div className="flex justify-start items-center gap-3 mt-8">
+              <div>
+                <AiOutlinePhone size={40} />
+              </div>
+              <div>
+                <h3 className="text-3xl sm:text-5xl">Phone Number</h3>
+                <h4 className="text-xl sm:text-3xl text-gray-400">
+                  +94 710804846
+                </h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
