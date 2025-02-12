@@ -1,7 +1,9 @@
-'use client'
+"use client";
 import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import MagicButton from "../ui/MagicButton";
+import { AiOutlineMail } from "react-icons/ai";
 
 //const ContactForm = () => {
 function ContactForm() {
@@ -78,9 +80,15 @@ function ContactForm() {
         <p className="text-red-500">{formik.errors.message}</p>
       )}
 
-      <button type="submit" className="w-full p-2 bg-blue-500 text-white">
+      {/* <button type="submit" className="w-full p-2 bg-blue-500 text-white">
         Send Email
-      </button>
+      </button> */}
+      <MagicButton
+        title="Send Email"
+        icon={<AiOutlineMail />}
+        position="right"
+        type="submit"
+      />
     </form>
   );
 }
