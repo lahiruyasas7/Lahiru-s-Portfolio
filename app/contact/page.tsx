@@ -31,7 +31,7 @@ const Contact = () => {
           />
         </div>
         <div className="relative flex flex-col sm:flex-row sm:justify-center sm:items-center gap-12">
-          <div className="bg-red-600">
+          <div className="">
             <ContactForm />
           </div>
           <div>
