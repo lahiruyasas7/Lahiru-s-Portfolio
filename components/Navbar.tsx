@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-black-100/80 backdrop-blur-lg shadow-md z-50">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-        <ul className="flex justify-center items-center gap-8 py-4 text-white text-lg">
+        <ul className="flex justify-center items-center gap-8 py-4 text-white text-lg flex-wrap">
           <li className="relative group">
             <Link href="/" className="nav-link">
               Home

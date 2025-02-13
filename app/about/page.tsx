@@ -32,12 +32,12 @@ const About = () => {
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
-        <div className="relative my-5 z-10 mx-[200px]">
+        <div className="relative my-5 z-10 xl:mx-[200px]">
           <div className="flex justify-start items-center gap-4 mb-6">
             <h2 className="text-2xl font-semibold p-0 m-0">About Me</h2>
             <div className="w-[200px] h-[1px] bg-gray-400"></div>
           </div>
-          <div className="flex justify-center items-center gap-10">
+          <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-10">
             <div>
               <p>
                 I am an enthusiastic and detail-oriented Full-Stack Software

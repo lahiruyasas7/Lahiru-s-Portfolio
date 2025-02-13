@@ -28,7 +28,7 @@ const Resume = () => {
              bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
-        <div className="relative my-5 z-10 mx-[200px]">
+        <div className="relative my-5 z-10 xl:mx-[200px]">
           <iframe src='/custom-images/LahiruYasasResume.pdf' width="100%" height="800px" />
         </div>
       </div>
