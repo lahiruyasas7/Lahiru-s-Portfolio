@@ -6,7 +6,7 @@ import { AiOutlinePhone } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 h-screen">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-x-hidden lg:overflow-hidden mx-auto sm:px-10 px-5 h-screen">
       <div className="pb-20 pt-36 w-full">
         <div>
           <Spotlight
@@ -30,6 +30,10 @@ const Contact = () => {
                  bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
+        <div className="relative flex justify-start items-center gap-4 mb-6 xl:ml-[200px]">
+            <h2 className="text-2xl font-semibold p-0 m-0">Contact Me</h2>
+            <div className="w-[200px] h-[1px] bg-gray-400"></div>
+          </div>
         <div className="relative flex flex-col sm:flex-row sm:justify-center sm:items-center gap-12">
           <div className="">
             <ContactForm />

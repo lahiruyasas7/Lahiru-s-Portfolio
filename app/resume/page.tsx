@@ -4,7 +4,7 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 h-screen">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-x-hidden lg:overflow-hidden mx-auto sm:px-10 px-5 h-screen">
       <div className="pb-20 pt-36 w-full">
         <div>
           <Spotlight
@@ -29,7 +29,11 @@ const Resume = () => {
           />
         </div>
         <div className="relative my-5 z-10 xl:mx-[200px]">
-          <iframe src='/custom-images/LahiruYasasResume.pdf' width="100%" height="800px" />
+          <iframe
+            src="/custom-images/LahiruYasasResume.pdf"
+            width="100%"
+            height="800px"
+          />
         </div>
       </div>
     </main>
