@@ -32,9 +32,9 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Task Management App",
+    title: "Latest Trending Movies ",
     description:
       "A web-based task management application with team collaboration.",
-    images: ["/projects/taskapp1.png", "/projects/taskapp2.png"],
+    images: ["/custom-images/movieRating2.png", "/custom-images/movieRating1.png"],
   },
 ];
