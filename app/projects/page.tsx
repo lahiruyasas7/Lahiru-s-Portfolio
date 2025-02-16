@@ -28,7 +28,7 @@ const Projects = () => {
              bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
-        <div className="relative my-5 z-10 xl:mx-[200px]">
+        <div className="relative my-5 z-10 xl:mx-[200px] mt-[600px]">
           <div className="flex justify-start items-center gap-4 mb-6">
             <h2 className="text-2xl font-semibold p-0 m-0">Projects</h2>
             <div className="w-[200px] h-[1px] bg-gray-400"></div>
