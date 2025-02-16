@@ -14,16 +14,27 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Website",
+    title: "Learning Material System",
     description:
       "A fully functional e-commerce platform with payment integration.",
-    images: ["/projects/ecommerce1.png", "/projects/ecommerce2.png"],
+    images: [
+      "custom-images/lahiru-s-acadamy2.png",
+      "custom-images/lahiru-s-acadamy4.png",
+      "custom-images/lahiru-s-acadamy7.png",
+      "custom-images/lahiru-s-acadamy8.png",
+      "custom-images/lahiru-s-acadamy9.png",
+      "custom-images/lahiru-s-acadamy10.png",
+      "custom-images/lahiru-s-acadamy11.png",
+    ],
   },
   {
     id: 2,
-    title: "Portfolio Website",
+    title: "Online Compiler",
     description: "A personal portfolio showcasing projects and blogs.",
-    images: ["/projects/portfolio1.png"],
+    images: [
+      "custom-images/onlineCompiler1.png",
+      "custom-images/onlineCompilerProject2.png",
+    ],
   },
   {
     id: 3,
@@ -46,7 +57,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
                 <img
                   src={image}
                   alt={project.title}
-                  className="w-full h-64 object-cover rounded-lg"
+                  className="w-full h-64 object-scale-down rounded-lg"
                 />
               </CarouselItem>
             ))}
@@ -66,7 +77,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
 const ProjectsSection = () => {
   return (
     <section className="container mx-auto px-4 py-10">
-      <h1 className="text-3xl font-bold text-center mb-8">My Projects</h1>
+      {/* <h1 className="text-3xl font-bold text-center mb-8">My Projects</h1> */}
       <div className="grid gap-10">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
