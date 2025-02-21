@@ -2,6 +2,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import { projects } from "@/data/projectsData";
 import { Project } from "@/data/projectsData";
@@ -23,6 +25,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
               </CarouselItem>
             ))}
           </CarouselContent>
+
+          <div className="flex justify-center gap-4 mt-2">
+              <CarouselPrevious className="static relative" />
+              <CarouselNext className="static relative" />
+            </div>
         </Carousel>
       </div>
 
