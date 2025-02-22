@@ -56,4 +56,14 @@ export const projects: Project[] = [
       "/custom-images/jobPortal8.PNG",
     ],
   },
+  {
+    id: 3,
+    title: "Weather App ",
+    description:
+      "A website to check weather of main cities and search any city",
+    images: [
+      "/custom-images/weatherApp1.PNG",
+      "/custom-images/weatherApp2.PNG",
+    ],
+  },
 ];
