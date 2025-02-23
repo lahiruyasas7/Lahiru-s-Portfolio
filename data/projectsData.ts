@@ -9,7 +9,8 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Learning Material System",
-    description: "A fully functional Learning Material Platform.",
+    description:
+      "A fully functional Learning Material Platform. user can create courses and exam categories, add questions with answers, user details, experiece, education, project details. used technologies are nextjs, tailwind, redux saga for frontend and nest js, typeorm and postgresql for backend.",
     images: [
       "custom-images/lahiru-s-acadamy2.PNG",
       "custom-images/lahiru-s-acadamy4.PNG",
@@ -24,7 +25,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Online Compiler",
     description:
-      "An online compiler with error showing for c, c++, java, python, html",
+      "An online compiler with error showing for c, c++, java, python, html. use technologies are react js, monaco editor, bootstrap, react-select",
     images: [
       "custom-images/onlineCompiler1.PNG",
       "custom-images/onlineCompilerProject2.PNG",
@@ -34,7 +35,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Latest Trending Movies ",
     description:
-      "A website view latest trending movies and check their details",
+      "A website view latest trending movies and check their details. use technologies are react js, axios, redux saga, tailwind",
     images: [
       "/custom-images/movieRating2.PNG",
       "/custom-images/movieRating1.PNG",
@@ -60,7 +61,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Weather App ",
     description:
-      "A website to check weather of main cities and search any city",
+      "This job portal for mainly for day jobs and part time jobs. there are 3 roles accounts. Admin, Employer, Employee. ",
     images: [
       "/custom-images/weatherApp1.PNG",
       "/custom-images/weatherApp2.PNG",
