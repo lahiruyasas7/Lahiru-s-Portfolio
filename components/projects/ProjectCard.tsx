@@ -12,7 +12,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <div className="flex flex-col md:flex-row gap-6 border p-6 rounded-xl shadow-lg">
       {/* Left - Carousel */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full md:w-1/2 cursor-pointer">
         <Carousel>
           <CarouselContent>
             {project.images.map((image, index) => (
