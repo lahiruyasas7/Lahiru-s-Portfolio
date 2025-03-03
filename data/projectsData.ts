@@ -45,7 +45,7 @@ export const projects: Project[] = [
     id: 4,
     title: "Online Part time job portal ",
     description:
-      "A web-based task management application with team collaboration.",
+      "This job portal for mainly for day jobs and part time jobs. there are 3 roles accounts. Admin, Employer, Employee. Employee post, update, delete job posts. system shows the nearest job for job seekers. also system suggest best job applier for employee. use technologies are Html, css, javascript, bootstrap, php, mysql.",
     images: [
       "/custom-images/jobPortal1.PNG",
       "/custom-images/jobPortal2.PNG",
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Weather App ",
     description:
-      "This job portal for mainly for day jobs and part time jobs. there are 3 roles accounts. Admin, Employer, Employee. ",
+      "User can check weather details of main cities of the world. used technologies are react js, axios, bootstrap",
     images: [
       "/custom-images/weatherApp1.PNG",
       "/custom-images/weatherApp2.PNG",
