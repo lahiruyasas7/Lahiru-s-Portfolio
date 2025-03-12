@@ -3,6 +3,10 @@ import { Spotlight } from "@/components/ui/Spotlight";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineX } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -31,9 +35,9 @@ const Contact = () => {
           />
         </div>
         <div className="relative flex justify-start items-center gap-4 mb-6 xl:ml-[200px]">
-            <h2 className="text-2xl font-semibold p-0 m-0">Contact Me</h2>
-            <div className="w-[200px] h-[1px] bg-gray-400"></div>
-          </div>
+          <h2 className="text-2xl font-semibold p-0 m-0">Contact Me</h2>
+          <div className="w-[200px] h-[1px] bg-gray-400"></div>
+        </div>
         <div className="relative flex flex-col sm:flex-row sm:justify-center sm:items-center gap-12">
           <div className="">
             <ContactForm />
@@ -62,6 +66,40 @@ const Contact = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="relative w-full h-auto bg-black-200 p-3 rounded-md flex justify-between items-center">
+          <a
+            className="cursor-pointer transition-transform duration-200 hover:scale-110"
+            href="https://www.instagram.com/lahiruzx/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillInstagram size={40} />
+          </a>
+          <a
+            className="cursor-pointer transition-transform duration-200 hover:scale-110"
+            href="https://github.com/lahiruyasas7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub size={40} />
+          </a>
+          <a
+            className="cursor-pointer transition-transform duration-200 hover:scale-110"
+            href="https://linkedin.com/in/lahiru-yasas-2ba260214"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillLinkedin size={40} />
+          </a>
+          <a
+            className="cursor-pointer transition-transform duration-200 hover:scale-110"
+            href="https://x.com/lahiruyb_yasas"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineX size={40} />
+          </a>
         </div>
       </div>
     </main>
