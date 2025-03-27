@@ -42,7 +42,7 @@ const About = () => {
               <p>
                 I am an enthusiastic and detail-oriented Full-Stack Software
                 Engineer with nearly three years of industry experience, currently
-                working as an Associate Software Engineer. With a strong passion
+                working as an Software Engineer. With a strong passion
                 for problem-solving and innovation, I thrive in dynamic
                 environments where I can contribute as a smart team player.
               </p>
