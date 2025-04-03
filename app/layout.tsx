@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Lahiru Yasas Karunathilaka Portfolio",
   description:
     "Passionate full-stack developer skilled in Next.js, React, and NestJS. Explore my portfolio featuring innovative web solutions, scalable applications, and modern JavaScript frameworks.",
+  verification: {
+    google: "google1134d4c168fdafa0.html",
+  },
 };
 
 export default function RootLayout({
