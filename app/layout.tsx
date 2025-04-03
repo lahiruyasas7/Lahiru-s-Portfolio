@@ -7,8 +7,9 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lahiru Yasas Portfolio",
-  description: "Modern JS mastery Portfolio",
+  title: "Lahiru Yasas Karunathilaka Portfolio",
+  description:
+    "Passionate full-stack developer skilled in Next.js, React, and NestJS. Explore my portfolio featuring innovative web solutions, scalable applications, and modern JavaScript frameworks.",
 };
 
 export default function RootLayout({
@@ -20,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {" "}
-        <Navbar/>
+        <Navbar />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
