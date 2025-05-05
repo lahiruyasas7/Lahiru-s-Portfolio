@@ -32,7 +32,7 @@ const About = () => {
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
-        <div className="relative my-5 z-10 xl:mx-[200px] mt-[900px] lg:mt-0 md:mt-[200px]">
+        <div className="relative my-5 z-10 xl:mx-[200px] mt-[950px] lg:mt-0 md:mt-[200px]">
           <div className="flex justify-start items-center gap-4 mb-6">
             <h2 className="text-2xl font-semibold p-0 m-0">About Me</h2>
             <div className="w-[200px] h-[1px] bg-gray-400"></div>
