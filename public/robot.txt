@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lahiru-s-portfolio.vercel.app/sitemap.xml

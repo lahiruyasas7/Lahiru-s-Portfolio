@@ -10,6 +10,27 @@ export const metadata: Metadata = {
   title: "Lahiru Yasas Karunathilaka Portfolio",
   description:
     "Passionate full-stack developer skilled in Next.js, React, and NestJS. Explore my portfolio featuring innovative web solutions, scalable applications, and modern JavaScript frameworks.",
+  keywords: [
+    "Lahiru Yasas",
+    "Karunathilaka",
+    "Full Stack Developer",
+    "Next.js Portfolio",
+    "React Developer",
+    "NestJS",
+    "Web Developer Sri Lanka",
+  ],
+  metadataBase: new URL("https://lahiru-s-portfolio.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   verification: {
     google: "google1134d4c168fdafa0.html",
   },
