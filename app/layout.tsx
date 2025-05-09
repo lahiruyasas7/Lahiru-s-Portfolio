@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Lahiru Yasas Karunathilaka Portfolio",
   description:
-    "Passionate full-stack developer skilled in Next.js, React, and NestJS. Explore my portfolio featuring innovative web solutions, scalable applications, and modern JavaScript frameworks.",
+    "Passionate full-stack Software Engineer skilled in Next.js, React, and NestJS. Explore my portfolio featuring innovative web solutions, scalable applications, and modern JavaScript frameworks.",
   keywords: [
     "Lahiru Yasas",
     "Karunathilaka",
-    "Full Stack Developer",
+    "Full Stack Software Engineer",
     "Next.js Portfolio",
     "React Developer",
     "NestJS",
