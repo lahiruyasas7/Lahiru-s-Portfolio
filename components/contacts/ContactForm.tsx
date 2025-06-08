@@ -39,7 +39,7 @@ function ContactForm() {
   });
 
   return (
-    <form onSubmit={formik.handleSubmit} className="max-w-lg mx-auto p-4">
+    <form onSubmit={formik.handleSubmit} className="lg:w-[500px] max-w-lg mx-auto p-4">
       <input
         type="text"
         placeholder="Your Name"
