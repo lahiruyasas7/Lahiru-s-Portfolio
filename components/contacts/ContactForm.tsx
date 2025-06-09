@@ -1,12 +1,14 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import MagicButton from "../ui/MagicButton";
 import { AiOutlineMail } from "react-icons/ai";
+import { toast } from "react-toastify";
 
 //const ContactForm = () => {
 function ContactForm() {
+  const [loading, setLoading] = useState(false);
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -21,25 +23,33 @@ function ContactForm() {
       message: Yup.string().required("Message is required"),
     }),
     onSubmit: async (values, { resetForm }) => {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(values),
-      });
+      setLoading(true);
+      try {
+        const response = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(values),
+        });
 
-      if (response.ok) {
-        alert("Email sent successfully!");
-        resetForm();
-      } else {
-        alert("Failed to send email.");
+        if (response.ok) {
+          toast.success("Email sent successfully!");
+          resetForm();
+        } else {
+          toast.error("Failed to send email.");
+        }
+      } catch (error) {
+        toast.error("Something went wrong.");
+      } finally {
+        setLoading(false);
       }
     },
   });
 
   return (
-    <form onSubmit={formik.handleSubmit} className="lg:w-[500px] max-w-lg mx-auto p-4">
+    <form
+      onSubmit={formik.handleSubmit}
+      className="lg:w-[500px] max-w-lg mx-auto p-4"
+    >
       <input
         type="text"
         placeholder="Your Name"
@@ -88,6 +98,7 @@ function ContactForm() {
         icon={<AiOutlineMail />}
         position="right"
         type="submit"
+        isLoading={loading}
       />
     </form>
   );
