@@ -4,6 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import MagicButton from "../ui/MagicButton";
 import { AiOutlineMail } from "react-icons/ai";
+import { toast } from 'react-toastify';
 
 //const ContactForm = () => {
 function ContactForm() {
@@ -30,10 +31,10 @@ function ContactForm() {
       });
 
       if (response.ok) {
-        alert("Email sent successfully!");
+        toast.success("Email sent successfully!");
         resetForm();
       } else {
-        alert("Failed to send email.");
+        toast.error("Failed to send email.");
       }
     },
   });
