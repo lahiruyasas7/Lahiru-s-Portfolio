@@ -7,7 +7,7 @@ const React19Post = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
       <h1 className="text-4xl font-bold mb-4">
-        React 19: What's New and Exciting
+        React 19: What&apos;s New and Exciting
       </h1>
       <p className="text-gray-100 mb-6">
         React 19 brings a wave of new features, transforming how developers
