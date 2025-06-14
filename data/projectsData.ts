@@ -12,7 +12,7 @@ export const projects: Project[] = [
     description:
       "A fully functional Learning Material Platform. user can create courses and exam categories, add questions with answers, user details, experiece, education, project details. used technologies are nextjs, tailwind, redux saga for frontend and nest js, typeorm and postgresql for backend.",
     images: [
-      "custom-images/lahiru-s-acadamy2.PNG",
+      "custom-images/academy-new-courses.PNG",
       "custom-images/lahiru-s-acadamy4.PNG",
       "custom-images/lahiru-s-acadamy7.PNG",
       "custom-images/lahiru-s-acadamy8.PNG",
