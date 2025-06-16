@@ -22,6 +22,17 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: 3,
+    title: "Latest Trending Movies ",
+    description:
+      "A website view latest trending movies and check their details. use technologies are react js, axios, redux saga, tailwind",
+    images: [
+      "/custom-images/MovieRatingHome.png",
+      "/custom-images/movieRatingModalView.PNG",
+      "/custom-images/movieRatingLogin.PNG",
+    ],
+  },
+  {
     id: 2,
     title: "Online Compiler",
     description:
@@ -31,16 +42,7 @@ export const projects: Project[] = [
       "custom-images/onlineCompiler1.PNG",
     ],
   },
-  {
-    id: 3,
-    title: "Latest Trending Movies ",
-    description:
-      "A website view latest trending movies and check their details. use technologies are react js, axios, redux saga, tailwind",
-    images: [
-      "/custom-images/movieRating2.PNG",
-      "/custom-images/movieRating1.PNG",
-    ],
-  },
+
   {
     id: 4,
     title: "Online Part time job portal ",
