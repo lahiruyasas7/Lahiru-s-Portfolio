@@ -13,12 +13,24 @@ export const projects: Project[] = [
       "A fully functional Learning Material Platform. user can create courses and exam categories, add questions with answers, user details, experiece, education, project details. used technologies are nextjs, tailwind, redux saga for frontend and nest js, typeorm and postgresql for backend.",
     images: [
       "custom-images/academy-new-courses.PNG",
-      "custom-images/lahiru-s-acadamy4.PNG",
+      "custom-images/course-single-view.png",
+      "custom-images/exams-view.png",
       "custom-images/lahiru-s-acadamy7.PNG",
       "custom-images/lahiru-s-acadamy8.PNG",
       "custom-images/lahiru-s-acadamy9.PNG",
       "custom-images/lahiru-s-acadamy10.PNG",
       "custom-images/lahiru-s-acadamy11.PNG",
+    ],
+  },
+  {
+    id: 3,
+    title: "Latest Trending Movies & Tv Shows",
+    description:
+      "A website view latest trending movies, Tv Shows and check their details with authentication. use technologies are react js, axios, redux saga, tailwind, Nest.js, Prisma, postgresql",
+    images: [
+      "/custom-images/MovieRatingHome.png",
+      "/custom-images/movieRatingModalView.PNG",
+      "/custom-images/movieRatingLogin.PNG",
     ],
   },
   {
@@ -31,16 +43,7 @@ export const projects: Project[] = [
       "custom-images/onlineCompiler1.PNG",
     ],
   },
-  {
-    id: 3,
-    title: "Latest Trending Movies ",
-    description:
-      "A website view latest trending movies and check their details. use technologies are react js, axios, redux saga, tailwind",
-    images: [
-      "/custom-images/movieRating2.PNG",
-      "/custom-images/movieRating1.PNG",
-    ],
-  },
+
   {
     id: 4,
     title: "Online Part time job portal ",
