@@ -4,7 +4,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-x-hidden mx-auto sm:px-10 px-5 h-screen">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-x-hidden mx-auto sm:px-10px-5 h-screen">
       <div className="pb-20 pt-36 w-full">
         <div>
           <Spotlight
@@ -28,7 +28,7 @@ const Projects = () => {
              bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
           />
         </div>
-        <div className="relative my-5 z-10 xl:mx-[200px] mt-[2800px] md:mt-[1500px]">
+        <div className="absolute my-5 z-10 lg:mx-[100px] xl:mx-[200px] top-28">
           <div className="flex justify-start items-center gap-4 mb-6">
             <h2 className="text-2xl font-semibold p-0 m-0">Projects</h2>
             <div className="w-[200px] h-[1px] bg-gray-400"></div>
