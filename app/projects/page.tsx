@@ -4,7 +4,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-x-hidden mx-auto sm:px-10px-5 h-screen">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-x-hidden mx-auto h-screen">
       <div className="pb-20 pt-36 w-full">
         <div>
           <Spotlight
