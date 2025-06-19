@@ -21,15 +21,16 @@ const ProjectCard = ({ project }: { project: Project }) => {
                   src={image}
                   alt={project.title}
                   className="w-full h-64 object-scale-down rounded-lg"
+                  loading="lazy"
                 />
               </CarouselItem>
             ))}
           </CarouselContent>
 
           <div className="flex justify-center gap-4 mt-2">
-              <CarouselPrevious className="static relative" />
-              <CarouselNext className="static relative" />
-            </div>
+            <CarouselPrevious className="static relative" />
+            <CarouselNext className="static relative" />
+          </div>
         </Carousel>
       </div>
 
