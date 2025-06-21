@@ -28,9 +28,10 @@ export const projects: Project[] = [
     description:
       "A website view latest trending movies, Tv Shows and check their details with authentication. use technologies are react js, axios, redux saga, tailwind, Nest.js, Prisma, postgresql",
     images: [
-      "/custom-images/MovieRatingHome.png",
-      "/custom-images/movieRatingModalView.PNG",
+      "/custom-images/movie-ratting-app-home.png",
+      "/custom-images/movie-rating-single-view-black.PNG",
       "/custom-images/movieRatingLogin.PNG",
+      "/custom-images/movie-ratings-register.PNG",
     ],
   },
   {
