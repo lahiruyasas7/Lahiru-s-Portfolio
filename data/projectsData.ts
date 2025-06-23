@@ -30,6 +30,7 @@ export const projects: Project[] = [
     images: [
       "/custom-images/movie-ratting-app-home.png",
       "/custom-images/movie-rating-single-view-black.PNG",
+      "/custom-images/movie-rating-app-tv-shows.png",
       "/custom-images/movieRatingLogin.PNG",
       "/custom-images/movie-ratings-register.PNG",
     ],
