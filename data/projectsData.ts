@@ -10,7 +10,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Learning Material System",
     description:
-      "A fully functional Learning Material Platform. user can create courses and exam categories, add questions with answers, user details, experiece, education, project details. used technologies are nextjs, tailwind, redux saga for frontend and nest js, typeorm and postgresql for backend.",
+      "A fully functional Learning Material Platform. user can create courses and exam categories, add questions with answers, user details, experience, education, project details. used technologies are nextjs, tailwind, redux saga for frontend and nest js, typeorm and postgresql for backend.",
     images: [
       "custom-images/academy-new-courses.PNG",
       "custom-images/course-single-view.png",
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Latest Trending Movies & Tv Shows",
     description:
-      "A website view latest trending movies, Tv Shows and check their details with authentication. use technologies are react js, axios, redux saga, tailwind, Nest.js, Prisma, postgresql",
+      "A website view latest trending movies, Tv Shows and check their details with authentication/ google login. use technologies are react js, axios, redux saga, tailwind, Nest.js, Prisma, postgresql",
     images: [
       "/custom-images/movie-ratting-app-home.png",
       "/custom-images/movie-rating-single-view-black.PNG",
