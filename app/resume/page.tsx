@@ -30,7 +30,7 @@ const Resume = () => {
         </div>
         <div className="relative my-5 z-10 xl:mx-[200px]">
           <iframe
-            src="/custom-images/Lahiru Karunathilaka - Resume.pdf"
+            src="/custom-images/Lahiru Karunathilaka (Full-Stack SE) - Resume.pdf"
             width="100%"
             height="800px"
           />
