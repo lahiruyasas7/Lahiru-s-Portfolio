@@ -44,6 +44,7 @@ export const projects: Project[] = [
       "/custom-images/movie-rating-app-tv-shows.png",
       "/custom-images/movieRatingLogin.PNG",
       "/custom-images/movie-ratings-register.PNG",
+      "/custom-images/movie-rating-app-video.PNG",
     ],
   },
   {
