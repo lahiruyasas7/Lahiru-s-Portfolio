@@ -37,7 +37,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Latest Trending Movies & Tv Shows",
     description:
-      "A website view latest trending movies, Tv Shows and check their details with authentication/ google login. use technologies are react js, axios, redux saga, tailwind, Nest.js, Prisma, postgresql",
+      "A website view latest trending movies, Tv Shows and check their details with authentication/ google login. Custom Video uploading with aws s3 bucket with queueing using redis and bullmq. used technologies are react js, axios, redux saga, tailwind, Nest.js, Prisma, postgresql.",
     images: [
       "/custom-images/movie-ratting-app-home.png",
       "/custom-images/movie-rating-single-view-black.PNG",
